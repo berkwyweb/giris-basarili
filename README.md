@@ -1,5 +1,5 @@
 # giris-basarili
-Bu PHP kodu, kullanıcı adı ve şifre doğrulama işlemi gerçekleştirir. Eğer doğru kullanıcı adı ve şifre girilirse, kullanıcı başarı sayfasına yönlendirilir. Yanlış giriş durumunda ise hata mesajı gösterilir. Ayrıca, sayfa estetik açıdan havadan düşen yıldızlar ve animasyonlu arka plan gibi görsel öğelerle zenginleştirilmiştir.
+***Bu PHP kodu, kullanıcı adı ve şifre doğrulama işlemi gerçekleştirir. Eğer doğru kullanıcı adı ve şifre girilirse, kullanıcı başarı sayfasına yönlendirilir. Yanlış giriş durumunda ise hata mesajı gösterilir. Ayrıca, sayfa estetik açıdan havadan düşen yıldızlar ve animasyonlu arka plan gibi görsel öğelerle zenginleştirilmiştir.***
 
 Kullanıcı Girişi ve Doğrulama:
 
@@ -8,6 +8,8 @@ $_SERVER["REQUEST_METHOD"] == "POST" ifadesi, form gönderildiğinde işlemi ba�
 $_POST['username'] ve $_POST['password'] ile kullanıcının girdiği bilgiler alınır.
 Eğer girilen kullanıcı adı ve şifre doğruysa, kullanıcı success.php sayfasına yönlendirilir. Yanlış giriş durumunda ise bir hata mesajı gösterilir.
 HTML Yapısı ve Stil:
+
+> [!TIP]
 
 HTML kısmında, kullanıcı adı ve şifre girişi için form elemanları yer alır.
 Sayfa stilinde, siyah arka plan ve animasyonlu geçişler kullanılmıştır.
